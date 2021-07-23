@@ -1,8 +1,14 @@
-# terraform-spotify
- This repository implements a playlist on Spotify using Terraform
+# Terraform with Spotify
 
-Create a playlist on Spotify by writing it as a Terraform configuration.
+## Tutorial
 
 Follow along with the tutorial at [learn.hashicorp.com](https://learn.hashicorp.com/tutorials/terraform/spotify-playlist).
 
-playlist_url = "https://open.spotify.com/playlist/32TGS2t6WlLcv6WJafhmOJ"
+## Usage
+
+The tracks are listed in variables.tf file as *list(map(string))* format.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
